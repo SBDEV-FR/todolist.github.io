@@ -1,0 +1,126 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #1e1e1e; /* Fond sombre */
+    color: #ffffff; /* Texte blanc */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#app {
+    width: 100%;
+    max-width: 400px;
+    background: #2d2d2d; /* Fond du conteneur */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    text-align: center;
+    color: #9b59b6; /* Titre violet */
+    margin-bottom: 30px;
+}
+
+.input-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#taskInput {
+    flex-grow: 1;
+    padding: 10px 15px;
+    border: none;
+    background-color: #3d3d3d; /* Fond d'entrée sombre */
+    color: #ffffff; /* Texte d'entrée blanc */
+    border-radius: 25px 0 0 25px;
+    font-size: 16px;
+}
+
+#addTaskButton {
+    padding: 10px 20px;
+    background-color: #9b59b6; /* Bouton violet */
+    color: white;
+    border: none;
+    border-radius: 0 25px 25px 0;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+#addTaskButton:hover {
+    background-color: #8e44ad; /* Couleur plus sombre au survol */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #3d3d3d; /* Fond des tâches */
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s;
+}
+
+li:hover {
+    background-color: #4d4d4d; /* Fond des tâches au survol */
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #888; /* Couleur des tâches complètes */
+}
+
+.task-buttons {
+    display: flex;
+    gap: 5px;
+}
+
+.edit-btn, .delete-btn {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.edit-btn {
+    background-color: #3498db; /* Bouton d'édition */
+    color: white;
+}
+
+.edit-btn:hover {
+    background-color: #2980b9; /* Couleur plus sombre au survol */
+}
+
+.delete-btn {
+    background-color: #e74c3c; /* Bouton de suppression */
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: #c0392b; /* Couleur plus sombre au survol */
+}
+
+.editing {
+    background-color: #4d4d4d; /* Fond des tâches en cours d'édition */
+}
+
+.editing input {
+    background-color: #5d5d5d; /* Fond d'entrée en cours d'édition */
+    color: white; /* Texte d'entrée en cours d'édition */
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100%;
+    margin-right: 10px;
+}
