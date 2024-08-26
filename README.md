@@ -1,5 +1,11 @@
 # Application de to do list en JavaScript
 
+
+![Capture d'écran 2024-08-25 200746](https://github.com/user-attachments/assets/fe9ea2cf-c1fa-40f1-9ba3-f08c6fc56bb1)
+
+
+![Capture d'écran 2024-08-25 170032](https://github.com/user-attachments/assets/a9855227-d57e-42f3-b19a-bfeb5d2fbd8f)
+
 ## Description
 
 Cette application web simple a été développée dans le but de mettre en pratique diverses notions fondamentales de JavaScript, en particulier la manipulation du DOM, la gestion des événements, et la manipulation dynamique du contenu. Elle permet aux utilisateurs de créer, modifier et supprimer des tâches, tout en offrant une expérience interactive et réactive.
@@ -88,9 +94,3 @@ Le principal objectif de cette application est d'apprendre les bases du langage 
 - **Créer** une tâche
 - **Modifier** une tâche existante
 - **Supprimer** une tâche
-
-
-![Capture d'écran 2024-08-25 200746](https://github.com/user-attachments/assets/fe9ea2cf-c1fa-40f1-9ba3-f08c6fc56bb1)
-
-
-![Capture d'écran 2024-08-25 170032](https://github.com/user-attachments/assets/a9855227-d57e-42f3-b19a-bfeb5d2fbd8f)
